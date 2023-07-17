@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to home screen</h1>
+<h1 align="center">Welcome to my home screen</h1>
 <h1 align="center">A budding Cloud Ops Engineer</h1>
 <hr>
 <br>
