@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>P2pro Technologies- Home Page</title>
+<title>Home Page</title>
 <link href="images/P2pro-logo.jpg" rel="icon">
 </head>
 </head>
