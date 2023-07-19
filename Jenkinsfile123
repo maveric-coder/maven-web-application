@@ -2,17 +2,13 @@ node
 {
 	stage("checkout the git code")
 	{
-	git branch: 'development', credentialsId: '16900126-a359-4dc7-b12e-70ed10dbe899', url: 'https://github.com/p2pro-DevOps/maven-web-application.git'
+	git branch: 'development', url: 'https://github.com/maveric-coder/maven-web-application.git'
 	}
 
 	stage("build")
 	{
 	sh "mvn clean package" //since it uses groovy run time, "bat"
 	}
-	stage('ExecuteSOnarQubeReport'){
-sh "mvn  sonar:sonar"
-}
-
 stage("Deployment to tomcat")
 {
     sshagent(['56a435c4-bd36-44ce-88eb-fe2b56b1e841']) {
