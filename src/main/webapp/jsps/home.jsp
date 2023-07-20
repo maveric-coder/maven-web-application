@@ -36,7 +36,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<span style="font-weight: bold;">
 		Anand
 		<br>
-		<a href="p2protech@gmail.com">Mail to Anand</a>
+		<a href="anand.kumar15@hotmail.com">Mail to Anand</a>
 	</span>
 </div>
 <hr>
