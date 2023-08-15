@@ -1,7 +1,7 @@
 node{
     
     
-    def mavenHome = tool name: "Maven_3.9.2"
+    def mavenHome = tool name: "mymaven"
     
     stage("git checkout"){
         git branch: 'development', credentialsId: 'Git_creds', url: 'https://github.com/p2pro-DevOps/maven-web-application.git'
