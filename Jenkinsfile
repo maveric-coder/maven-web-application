@@ -6,7 +6,7 @@ agent{
   
 }
 tools{
-maven 'Maven_393'
+maven 'mymaven'
 
 }
 
