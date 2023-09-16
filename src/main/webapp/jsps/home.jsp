@@ -33,6 +33,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<span>
 		<img src="images/sunflower.jpg" alt="" width="100">
 	</span>
+	<br>
 	<span style="font-weight: bold;">
 		Anand
 		<br>
